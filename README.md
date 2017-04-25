@@ -1,6 +1,6 @@
 # npmtest-intelligence
 
-#### test coverage for  [intelligence (v0.1.1)](http://sherlock92.github.io/intelligence/)  [![npm package](https://img.shields.io/npm/v/npmtest-intelligence.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-intelligence) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-intelligence.svg)](https://travis-ci.org/npmtest/node-npmtest-intelligence)
+#### basic test coverage for  [intelligence (v0.1.1)](http://sherlock92.github.io/intelligence/)  [![npm package](https://img.shields.io/npm/v/npmtest-intelligence.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-intelligence) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-intelligence.svg)](https://travis-ci.org/npmtest/node-npmtest-intelligence)
 
 #### Machine learning library written in javascript
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-intelligence/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-intelligence/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-intelligence/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-intelligence/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-intelligence/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-intelligence/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-intelligence/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-intelligence/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-intelligence/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-intelligence/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-intelligence/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-intelligence/build/coverage.html/index.html)
 
@@ -85,7 +85,8 @@
         "documentation": "jsdoc -r -c ./conf.json -d ./documentation src",
         "test": "nodeunit tests"
     },
-    "version": "0.1.1"
+    "version": "0.1.1",
+    "bin": {}
 }
 ```
 
